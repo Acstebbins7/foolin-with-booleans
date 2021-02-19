@@ -1,10 +1,51 @@
 /********************
  * YOUR CODE BELOW! *
  ********************/
+// function moreThan5 
 
 
+function isStudent(str) {
+  if(str === "student")
+    return true
+  else return false
+}
 
+function isTeacher(str) {
+  if(str === "teacher")
+    return true
+  else return false
+}
 
+function isAdmin(str){
+  if(str === "admin")
+    return true
+  else return false
+}
+
+function isElementary(str){
+  if(str === "elementary")
+    return true
+  else return false
+}
+
+function areDifferentPeople(str1, str2) {
+  if (str1 !== str2)
+    return true
+  else return false
+}
+
+function isMiddleSchoolTeacher(str1, str2) {
+  if(str === "teacher" && num >=6 && num <=8){
+    return true
+  }
+  else {return false}
+}
+
+function notAnElementarySchoolAdministrator(str1, str2) {
+  if(str1 !== "elementary"  || str2 !== "admin")
+    return true
+  else return false
+}
 
 /********************************************************************************************
  * CODE BELOW IS FOR EXPORTING THE VARIABLES AND FUNCTIONS YOU WROTE ABOVE TO MAIN.TEST.JS. *
