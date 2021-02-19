@@ -2,15 +2,35 @@
  * YOUR CODE BELOW! *
  ********************/
 function moreThan5(str) {
-  str > 5
+  if(str > 5)
+    return true
+  else return false
 }
 
 function isNewTopScore(score, topScore) {
-  score > 5
+  if(score > topScore)
+  return true
+  else return false
 }
 
 function isInDanger(grade) {
-  grade 
+  return grade >= 60 && grade <=71
+}
+
+function isCoasting(grade) {
+  return grade >= 72 && grade <=83
+}
+
+function isSucceeding(grade) {
+  return grade >= 84 && grade <= 92
+}
+
+function isFailing(grade) {
+  return grade < 60
+}
+
+function isAcing(grade) {
+  return grade > 92
 }
 
 function isStudent(str) {
