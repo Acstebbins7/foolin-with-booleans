@@ -1,8 +1,17 @@
 /********************
  * YOUR CODE BELOW! *
  ********************/
-// function moreThan5 
+function moreThan5(str) {
+  str > 5
+}
 
+function isNewTopScore(score, topScore) {
+  score > 5
+}
+
+function isInDanger(grade) {
+  grade 
+}
 
 function isStudent(str) {
   if(str === "student")
